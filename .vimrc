@@ -15,11 +15,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim/ " set the runtime path to include Vundle and initialize
 
 set encoding=UTF-8 "nerdtree-syntax-highlight
-
-call vundle#begin()
-
 " remap jj to <Esc>"
 inoremap jj <Esc>  
+
+call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
