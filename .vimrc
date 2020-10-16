@@ -8,7 +8,7 @@ set smartindent
 set nu
 set smartcase
 set incsearch
-
+set encoding=utf8
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
